@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+<script src="js/login.js"></script>
+
+
+
+</head>
+
+<body>
+    <div class="signupFrm">
+        <form action="http://localhost/mouli/php/login.php" method="post" id="loginForm" class="form">
+          <div class="header">
+            <img src="assets/signup.svg" alt="signup" height="100" width="100"/>
+          <h1 class="title">Login</h1></div>
+    
+          <div class="inputContainer">
+            <input type="text" class="input" id="uname" name="uname" >
+            <label for="" class="label">Username</label>
+          </div>
+
+          <div class="inputContainer">
+            <input type="password" class="input" id="pword" name="pword" >
+            <label for="" class="label">Password</label>
+          </div>
+              <input class="submitBtn"type="submit" name="submit"/> <br/>
+     
+             <p class="para-6">
+            Dont have an account? <a href="register.html">Sign up Here</a>
+          </p>
+
+
+
+          
+        </form>
+      </div>
+
+</body>
+
+</html>
